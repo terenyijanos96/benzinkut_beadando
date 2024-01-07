@@ -19,7 +19,6 @@ public class HagyomanyosAuto extends Jarmu {
         return uzemanyag_tipus;
     }
 
-
     public int getUzemanyagtartaly_urtartalom() {
         return uzemanyagtartaly_urtartalom;
     }
@@ -35,8 +34,6 @@ public class HagyomanyosAuto extends Jarmu {
     public void setUzemanyag_szint(int uzemanyag_szint) {
         this.uzemanyag_szint = uzemanyag_szint;
     }
-    
-    
 
     @Override
     public String toString() {

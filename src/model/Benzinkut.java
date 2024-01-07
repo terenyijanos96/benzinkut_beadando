@@ -103,7 +103,7 @@ public class Benzinkut {
         if (i < jarmu_db) {
             vissz_ertek = jarmuvek_tomb[i];
             jarmuvek_tomb[i] = null;
-            System.out.printf("Jármû kiállt: %s: %s - %s\n", jarmu.getTulajdonos(), jarmu.getMarka().getMegnevezes(), jarmu.getModel());
+            System.out.printf("Jármû kiállt: %s: %s - %s\n\n", jarmu.getTulajdonos(), jarmu.getMarka().getMegnevezes(), jarmu.getModel());
         } else {
             vissz_ertek = null;
             System.out.println("Jármû nincs bent...");
